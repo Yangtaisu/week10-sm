@@ -5,8 +5,16 @@ date: "`r Sys.Date()`"
 output : bookdown::html_document2
 ---
 
+# library
+
+i have used two libraries in my document.
+
 ```{r libraties, message=FALSE, echo=T}
 library(dplyr)
 library(ggplot2)
+```
+
+```{r}
+.libPaths()
 ```
 
